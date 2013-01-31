@@ -1,0 +1,63 @@
+
+/*Override from boostrap.css*/
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #EF4035;
+  background-image: -moz-linear-gradient(top, #EF4035, #EF4035);
+  background-image: -ms-linear-gradient(top, #EF4035, #EF4035);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EF4035), to(#EF4035));
+  background-image: -webkit-linear-gradient(top, #EF4035, #EF4035);
+  background-image: -o-linear-gradient(top, #EF4035, #EF4035);
+  background-image: linear-gradient(top, #EF4035, #EF4035);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#EF4035', endColorstr='#EF4035', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 9px 10px 11px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+}
+
+
+.navbar .nav > li > a:hover {
+  color: #000000;
+  text-decoration: underline; 
+  background-color: transparent;
+}
+
+.navbar .brand {
+  display: block;
+  float: left;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+  color: #000000;
+}
+
+.navbar .brand:hover {
+  text-decoration: underline;
+}
+
+/* .navbar .navbar-link {
+  color: #000000;
+}
+
+.navbar .navbar-link:hover {
+  color: #000000;
+} */
